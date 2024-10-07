@@ -1,0 +1,68 @@
+/* src/components/Navbar.css */
+
+nav {
+    display: flex; /* Usar flexbox para disposición */
+    justify-content: space-between; /* Espaciar elementos */
+    align-items: center; /* Centrar verticalmente */
+    background-color: #7ae9ae; /* Color de fondo */
+    padding: 15px 20px; /* Espaciado interno */
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; /* Sombra suave */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    
+  }
+  
+  .navbar-logo .fa-stethoscope {
+    margin-right: 8px; /* Añadir espacio entre el ícono y el texto */
+  }
+
+nav h1 {
+    color: white; /* Color del título */
+    margin: 0; /* Eliminar márgenes */
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
+}
+
+ul {
+    list-style: none; /* Eliminar viñetas */
+    margin: 0; /* Eliminar márgenes */
+    padding: 0; /* Eliminar padding */
+    display: flex; /* Usar flexbox para la lista */
+}
+
+ul li {
+    margin-left: 20px; /* Espacio entre elementos de la lista */
+    
+}
+
+ul li a {
+    color: white; /* Color del texto de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold; /* Negrita */
+    transition: color 0.3s; /* Transición suave para hover */
+    
+}
+
+ul li a:hover {
+    color: #5c5c5c; /* Color más claro al pasar el ratón */
+    
+}
+
+ul li button {
+    background-color: transparent; /* Sin color de fondo */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambiar cursor a puntero */
+    font-weight: bold; /* Negrita */
+    margin-left: 20px; /* Espacio entre enlaces y botón */
+    transition: color 0.3s; /* Transición suave para hover */
+}
+
+ul li button:hover {
+    color: #ffffffcc; /* Color más claro al pasar el ratón */
+}

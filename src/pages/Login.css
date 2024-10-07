@@ -1,0 +1,63 @@
+.login-container {
+    display: flex; /* Usar flexbox para centrar */
+    flex-direction: column; /* Colocar elementos en columna */
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+    min-height: 100vh; /* Altura mínima para ocupar toda la pantalla */
+    background-color: #f9f9f9; /* Fondo claro */
+    padding: 20px; /* Espaciado interno */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.login-form {
+    background-color: white; /* Fondo blanco para el formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px; /* Espaciado interno */
+    width: 300px; /* Ancho fijo */
+}
+
+.login-form h2 {
+    color: #6ca486; /* Color del título */
+    text-align: center; /* Centrar título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;/* Sombra del título */
+    
+}
+
+.login-form label {
+    display: block; /* Cada etiqueta ocupa su propia línea */
+    margin-bottom: 10px; /* Espacio debajo de cada etiqueta */
+    color: #555; /* Color del texto */
+}
+
+.login-form input,
+.login-form select {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    margin-bottom: 15px; /* Espacio debajo de cada campo */
+    box-sizing: border-box; /* Incluir padding en el ancho total */
+    
+}
+
+.login-form button {
+    background-color: #7ae9ae; /* Color de fondo verde claro */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar cursor a puntero */
+    width: 100%; /* Ancho completo */
+    transition: background-color 0.3s; /* Transición suave para hover */
+}
+
+.login-form button:hover {
+    background-color: #68d4a3; /* Color más oscuro al pasar el ratón */
+}

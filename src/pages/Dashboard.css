@@ -1,0 +1,59 @@
+/* Contenedor principal del panel de usuario */
+.dashboard-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+  }
+  
+  /* Título del panel */
+  .dashboard-container h2 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Párrafo de bienvenida */
+  .dashboard-container p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  /* Botones de acciones en el dashboard */
+  .dashboard-boton {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    background-color: #7ae9ae;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Cambiar el color del botón al pasar el ratón (hover) */
+  .dashboard-boton:hover {
+    background-color: #4b6b5a;
+  }
+  
+  /* Ajustes responsivos para pantallas más pequeñas */
+  @media (max-width: 600px) {
+    .dashboard-container {
+      padding: 20px;
+    }
+  
+    .dashboard-boton {
+      font-size: 14px;
+    }
+  }
+  

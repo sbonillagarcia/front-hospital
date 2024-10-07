@@ -1,0 +1,51 @@
+.prescription-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+  }
+  
+  .prescription-container h2 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .prescription-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    color: #34495e;
+  }
+  
+  .prescription-container p strong {
+    font-weight: bold;
+  }
+  
+  .prescription-container .print-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .prescription-container .print-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .prescription-container .print-button:active {
+    background-color: #2471a3;
+  }
+  
